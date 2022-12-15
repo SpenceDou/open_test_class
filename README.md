@@ -11,7 +11,7 @@
 
 
 * 请**Fork**本项目到您自己的Github账号下
-* 以下内容均基于**Java**进行考察，并同时涉及到了Git, Maven, Spring全家桶等技术  
+* 以下内容均基于**Java**进行考察，并同时涉及到了[Git](https://git-scm.com/), [Maven](https://maven.apache.org/), [Spring全家桶](https://spring.io/)等技术  
 * 请基于项目提供的基础结构进行开发扩展，符合标准的项目结构，可以通过Maven添加必要的依赖,务必自行解决依赖冲突  
 
 希望，我们可以遇到这样的您：
@@ -34,8 +34,8 @@
 * 订阅管理：学生账号登录系统后，可以操作订阅管理模块，本模块可以查询当前有效的课程信息，并提供订阅以及取消订阅的功能.
 
 2 系统设计要求
-* 数据库请使用H2
-* 持久层请使用JPA以及相关技术
+* 数据库请使用[H2](http://h2database.com)
+* 持久层请使用[JPA](https://jcp.org/en/jsr/detail?id=338)以及[相关技术](https://spring.io/projects/spring-data-jpa)
 * 对于UI的实现，至少需要使用[Thymeleaf](https://www.thymeleaf.org/)，对于掌握现代UI开发的同学，可以使用基于Vue的[Vuetify](https://vuetifyjs.com/) 或者基于React的[Ant Design](https://ant.design/)
 
 > 对于评估实现需要几周甚至几个月的同学，请认真思考面试题的场景和需求，制定出编码者实际的交付计划. 项目要求里可能有不熟悉的技术要求，但是业务的基本需求非常简单，基于Spring全家桶的要求大大降低了学习成本和最小实现难度。
